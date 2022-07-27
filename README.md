@@ -5,7 +5,9 @@ Internal example:  https://giddyinc.github.io/spresso-sdk-tracking-web/SpressoSd
 ## Usage notes
 ### local install
 Since jsdoc was not installed globally, the command to run jsdoc is
-```./node_modules/.bin/jsdoc yourJavaScriptFile.js```
+```
+./node_modules/.bin/jsdoc yourJavaScriptFile.js
+```
 where `yourJavaScriptFile.js` is the file that JSDoc will generate documentation from.
 
 For help, run
