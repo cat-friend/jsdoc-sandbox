@@ -1,5 +1,5 @@
-## JSDoc and Better-Docs
-# Installation
+# JSDoc and Better-Docs
+## Installation
 1. install JSDoc
 2. install better-docs
 3. in package.json file, add new script:
