@@ -20,7 +20,7 @@ Update the `./jsdoc.json` file:
 ```json
 ...
 "tags": {
-    "allowUnknownTags": ["optional"] //or true
+    "allowUnknownTags": ["optional"] // or `true`, I found that `true` works better/has more consistent results/less error messages
 },
 "plugins": [
     "node_modules/better-docs/typescript"
