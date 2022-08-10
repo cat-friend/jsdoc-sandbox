@@ -67,7 +67,7 @@ Example:
     "templates": {
         "better-docs": {
             "name": "Name of Documentation", // this appears in the upper right of the output document
-            "title": "Flux SDK -"
+            "title": "Some Title" // this will append to the beginning of every page title
         }
     }
 }
