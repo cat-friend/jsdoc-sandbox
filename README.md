@@ -58,10 +58,11 @@ Example:
     ],
     "opts": {
         "encoding": "utf8",
-        "destination": "docs/",
+        "destination": "docs/", // can change this to whatever dir you want your documentation to populate to
         "recurse": true,
         "verbose": true,
-        "template": "node_modules/better-docs"
+        "template": "node_modules/better-docs" // can change this if you have your own template
+        // if you don't have your own template, i highly suggest leaving this in as ./node_modules/better-docs/publish.js uses opts.template
     },
     "templates": {
         "better-docs": {
